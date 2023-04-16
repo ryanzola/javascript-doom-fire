@@ -1,0 +1,17 @@
+{
+  "name": "javascript-doom-fire",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "pixi.js": "^7.2.4"
+  }
+}
