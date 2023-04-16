@@ -17,7 +17,7 @@ docker build -t doomfire -f Dockerfile .
 To run the container, use the following command:
 
 ```sh
-docker run --rm --name doomfire \
+docker run --rm -it --name doomfire \
   -p 5173:5173 \
   -v ${PWD}:/app \
   -v /app/node_modules \
