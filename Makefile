@@ -6,7 +6,7 @@ build:
 	docker build -t $(IMAGE_NAME) -f Dockerfile .
 
 up: build
-	docker run --rm --name $(IMAGE_NAME) \
+	docker run --rm -t --name $(IMAGE_NAME) \
 		-p 5173:5173 \
 		-v ${PWD}:/app \
 		-v /app/node_modules \
